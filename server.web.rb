@@ -1,0 +1,2 @@
+require "./kupibi"
+Kupibi.run!
