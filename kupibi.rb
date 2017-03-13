@@ -13,7 +13,7 @@ class Kupibi < Sinatra::Base
 
   config_file 'config.yml'
 
-  get '/' do
+  post '/' do
     json url: url_to(shortener.short_url_for(params[:url]))
   end
 

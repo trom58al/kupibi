@@ -7,5 +7,6 @@ gem 'thin', '~> 1.7'
 gem 'em-hiredis', '~> 0.3.1'
 
 gem 'json', '~> 2.0', '>= 2.0.3'
+gem 'rspec', '~> 3.5'
 
 gem 'byebug', '~> 9.0', '>= 9.0.6'
